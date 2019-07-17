@@ -26,6 +26,7 @@ that a number is not a prime or it will assert that a number is possibly a prime
 So the first thing to do when trying to factorise a number is to first use Miller-Rabin to determine that the number 
 we are evaluating is or is not a prime to start with. If it is not a prime, then move onto trying to factorise it.
 
+If you are looking to do this properly try using Math::Prime::Util
 
 .e vim: expandtab filetype=rst shiftwidth=4 tabstop=4
 
