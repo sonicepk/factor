@@ -28,5 +28,10 @@ we are evaluating is or is not a prime to start with. If it is not a prime, then
 
 If you are looking to do this properly try using Math::Prime::Util
 
+RSA 512 was broken in 1999. In 2015 RSA 512 was broken in 4 hours on EC2. RSA 1024 has still not been broken but it is only a matter of time. 
+https://arstechnica.com/information-technology/2015/10/breaking-512-bit-rsa-with-amazon-ec2-is-a-cinch-so-why-all-the-weak-keys/
+Factoring as a Service on EC2
+https://eprint.iacr.org/2015/1000.pdf
+
 .e vim: expandtab filetype=rst shiftwidth=4 tabstop=4
 
